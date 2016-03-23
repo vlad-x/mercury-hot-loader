@@ -1,2 +1,3 @@
 # mercury-hot-loader
-Hot-reload for the mercury framework
+
+Webpack hot-reload for the [mercury](https://www.npmjs.com/package/mercury) framework.
