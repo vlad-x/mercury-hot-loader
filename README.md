@@ -7,13 +7,13 @@ Webpack hot-reload for the [mercury](https://www.npmjs.com/package/mercury) fram
 then add it to your webpack config, e.g.
 ```javascript
 {
-	module: {
-		loaders: [
-	        { 
-	          test: /\.coffee$/, 
-	          loaders: ['mercury-hot', 'transform/cacheable?coffeeify']
-	        }
-		]
-	}
+  module: {
+    loaders: [
+      { 
+        test: /\.coffee$/, 
+        loaders: ['mercury-hot', 'transform/cacheable?coffeeify']
+      }
+    ]
+  }
 }
 ```
